@@ -176,9 +176,9 @@ export const stats = [
 
 
 export const contactInfo = {
-  email: "contact@hopetree.org",
-  phone: "+91 98765 43210",
-  address: "123 Hope Street, Community Center, Mumbai, Maharashtra 400001",
+  email: "team@hopetree.in",
+  phone: "9441867485",
+  address: "18-160, satyanarayanapuram, Denduluru Mandal, Eluru Distraict, Andhra Pradesh - 534432",
   social: {
     facebook: "https://facebook.com/hopetree",
     twitter: "https://twitter.com/hopetree",
