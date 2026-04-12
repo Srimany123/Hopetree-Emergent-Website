@@ -28,8 +28,8 @@ export const Home = () => {
           <img
             src="https://images.unsplash.com/photo-1580869318757-a6c605b061ed"
             alt="Helping hands"
-            className="w-full h-full object-cover"
-          />
+            className="w-full h-full object-cover" />
+
           <div className="absolute inset-0 bg-gradient-to-r from-emerald-900/95 via-emerald-800/90 to-emerald-700/85" />
         </div>
 
@@ -38,14 +38,14 @@ export const Home = () => {
           <div className="max-w-3xl">
             <div
               className={`transform transition-all duration-1000 ${
-                isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
-              }`}
-            >
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+              isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`
+              }>
+
+              <h1 className="!font-sans !font-bold !text-6xl !text-left !mb-[24px] text-white">
                 Spreading Hope<br />
                 <span className="text-emerald-300">Where It's Needed Most</span>
               </h1>
-              <p className="text-xl md:text-2xl text-emerald-50 mb-8 leading-relaxed">
+              <p className="!text-2xl !text-left !mb-[32px] text-emerald-50">
                 Every act of kindness creates ripples of hope. Join us in making a difference in the lives of those who need it most.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -86,8 +86,8 @@ export const Home = () => {
                     <Icon className="h-10 w-10 text-emerald-200 mx-auto mb-3" />
                     <div className="text-3xl md:text-4xl font-bold text-white mb-2">{stat.value}</div>
                     <div className="text-emerald-100 font-medium">{stat.label}</div>
-                  </div>
-                );
+                  </div>);
+
               })}
             </div>
           </div>
@@ -120,8 +120,8 @@ export const Home = () => {
                 <img
                   src="https://images.unsplash.com/photo-1559234938-b60fff04894d"
                   alt="Community support"
-                  className="w-full h-[400px] object-cover"
-                />
+                  className="w-full h-[400px] object-cover" />
+
               </div>
               <div className="absolute -bottom-6 -left-6 bg-emerald-600 text-white p-6 rounded-xl shadow-lg">
                 <div className="text-3xl font-bold">{trustInfo.beneficiaries}</div>
@@ -142,14 +142,14 @@ export const Home = () => {
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            {programs.slice(0, 3).map((program) => (
-              <Card key={program.id} className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-emerald-300 overflow-hidden">
+            {programs.slice(0, 3).map((program) =>
+            <Card key={program.id} className="group hover:shadow-xl transition-all duration-300 border-2 hover:border-emerald-300 overflow-hidden">
                 <div className="relative h-48 overflow-hidden">
                   <img
-                    src={program.image}
-                    alt={program.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
+                  src={program.image}
+                  alt={program.title}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+
                   <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/80 to-transparent" />
                   <div className="absolute bottom-4 left-4">
                     <h3 className="text-xl font-bold text-white">{program.title}</h3>
@@ -163,7 +163,7 @@ export const Home = () => {
                   </div>
                 </CardContent>
               </Card>
-            ))}
+            )}
           </div>
           <div className="text-center">
             <Link to="/programs">
@@ -184,13 +184,13 @@ export const Home = () => {
             <p className="text-xl text-gray-600">Hear from those whose lives have been touched</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial) => (
-              <Card key={testimonial.id} className="bg-white border-none shadow-lg">
+            {testimonials.map((testimonial) =>
+            <Card key={testimonial.id} className="bg-white border-none shadow-lg">
                 <CardContent className="p-8">
                   <div className="flex mb-4">
-                    {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star key={i} className="h-5 w-5 text-yellow-400" fill="currentColor" />
-                    ))}
+                    {[...Array(testimonial.rating)].map((_, i) =>
+                  <Star key={i} className="h-5 w-5 text-yellow-400" fill="currentColor" />
+                  )}
                   </div>
                   <p className="text-gray-700 mb-6 italic">"{testimonial.content}"</p>
                   <div>
@@ -199,7 +199,7 @@ export const Home = () => {
                   </div>
                 </CardContent>
               </Card>
-            ))}
+            )}
           </div>
         </div>
       </section>
@@ -232,6 +232,6 @@ export const Home = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 };
