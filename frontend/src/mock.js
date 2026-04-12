@@ -134,7 +134,7 @@ export const testimonials = [
 },
 {
   id: 3,
-  name: "Sunita",
+  name: "",
   role: "Beneficiary - Medical Support",
   content: "When I couldn't afford my mother's medicines, Hopetree stepped in. They saved her life. True angels on earth.",
   rating: 5
