@@ -16,8 +16,8 @@ export const Footer = () => {
               <img
                 src="https://customer-assets.emergentagent.com/job_charity-trust-hub/artifacts/y2qkrgjt_Hopetree%20logo.png"
                 alt="Hopetree Charitable Trust"
-                className="h-28 w-auto"
-              />
+                className="h-28 w-auto !mx-[1px]" />
+
             </div>
             <p className="text-sm text-gray-400 mb-4">
               Spreading hope where it's needed the most. Join us in making a difference.
@@ -28,8 +28,8 @@ export const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-gray-800 rounded-lg hover:bg-emerald-600 transition-colors"
-                aria-label="Facebook"
-              >
+                aria-label="Facebook">
+
                 <Facebook className="h-4 w-4" />
               </a>
               <a
@@ -37,8 +37,8 @@ export const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-gray-800 rounded-lg hover:bg-emerald-600 transition-colors"
-                aria-label="Twitter"
-              >
+                aria-label="Twitter">
+
                 <Twitter className="h-4 w-4" />
               </a>
               <a
@@ -46,8 +46,8 @@ export const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-gray-800 rounded-lg hover:bg-emerald-600 transition-colors"
-                aria-label="Instagram"
-              >
+                aria-label="Instagram">
+
                 <Instagram className="h-4 w-4" />
               </a>
               <a
@@ -55,8 +55,8 @@ export const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-gray-800 rounded-lg hover:bg-emerald-600 transition-colors"
-                aria-label="LinkedIn"
-              >
+                aria-label="LinkedIn">
+
                 <Linkedin className="h-4 w-4" />
               </a>
             </div>
@@ -138,6 +138,6 @@ export const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
