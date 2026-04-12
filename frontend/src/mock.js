@@ -5,7 +5,7 @@ export const trustInfo = {
   tagline: "Spreading hope where it's needed the most",
   mission: "At Hopetree, we believe every individual deserves dignity, care, and opportunity. Our mission is to spread hope where it's needed the most through compassionate action and community support.",
   vision: "A world where no one is left behind - where the elderly are cared for, children have access to education, and families receive the support they need to thrive.",
-  established: "2020",
+  established: "2025",
   beneficiaries: "5000+",
   projects: "50+"
 };
@@ -99,20 +99,20 @@ export const galleryImages = [
 export const teamMembers = [
 {
   id: 1,
-  name: "Rajesh Kumar",
+  name: "Sireesha Yalavarthi",
   role: "Founder & Chairman",
   image: "https://images.unsplash.com/photo-1580869318757-a6c605b061ed"
 },
 {
   id: 2,
-  name: "Priya Sharma",
-  role: "Program Director",
+  name: "Suresh Yalavarthi",
+  role: "Founder & Trustee",
   image: "https://images.unsplash.com/photo-1559234938-b60fff04894d"
 },
 {
   id: 3,
-  name: "Amit Patel",
-  role: "Community Manager",
+  name: "Jaswanth Yalavarthi",
+  role: "Trustee",
   image: "https://images.pexels.com/photos/7551675/pexels-photo-7551675.jpeg"
 }];
 

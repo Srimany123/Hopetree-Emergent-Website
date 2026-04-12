@@ -59,11 +59,10 @@ export const Gallery = () => {
             <p className="text-xl text-gray-600 leading-relaxed mb-8">
               Behind every image is a story of transformation, hope, and community. These moments represent the collective efforts of our volunteers, donors, and beneficiaries working together to create positive change.
             </p>
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 gap-8">
               {[
-                { stat: '500+', label: 'Events Organized' },
-                { stat: '5000+', label: 'Lives Impacted' },
-                { stat: '200+', label: 'Volunteers' }
+                { stat: '20000+', label: 'Meals Served' },
+                { stat: '5000+', label: 'Lives Impacted' }
               ].map((item, index) => (
                 <div key={index} className="text-center">
                   <div className="text-4xl font-bold text-emerald-600 mb-2">{item.stat}</div>
