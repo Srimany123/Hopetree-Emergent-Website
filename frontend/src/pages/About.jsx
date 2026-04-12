@@ -83,7 +83,7 @@ export const About = () => {
                   We believe that every person deserves dignity, care, and opportunity. Through our diverse programs, we work tirelessly to bridge gaps in our society - whether it's ensuring the elderly don't go hungry, children have access to education, or families receive support during challenging times.
                 </p>
                 <p>
-                  Today, with the support of over {trustInfo.volunteers} dedicated volunteers and generous donors, we continue to spread hope where it's needed most.
+                  Today, with the support of generous donors and our dedicated team, we continue to spread hope where it's needed most.
                 </p>
               </div>
             </div>

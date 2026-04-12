@@ -7,7 +7,6 @@ export const trustInfo = {
   vision: "A world where no one is left behind - where the elderly are cared for, children have access to education, and families receive the support they need to thrive.",
   established: "2020",
   beneficiaries: "5000+",
-  volunteers: "200+",
   projects: "50+"
 };
 
@@ -33,7 +32,7 @@ export const programs = [
     icon: "GraduationCap",
     title: "Education Sponsorship",
     description: "Sponsoring education for deserving children who dream of a better future through learning.",
-    impact: "300+ children educated",
+    impact: "10+ children helped",
     image: "https://images.pexels.com/photos/35152622/pexels-photo-35152622.jpeg"
   },
   {
@@ -171,9 +170,9 @@ export const donationTiers = [
 
 export const stats = [
   { label: "Lives Touched", value: "5000+", icon: "Users" },
-  { label: "Meals Served", value: "50,000+", icon: "UtensilsCrossed" },
-  { label: "Children Educated", value: "300+", icon: "GraduationCap" },
-  { label: "Volunteers", value: "200+", icon: "Heart" }
+  { label: "Meals Served", value: "2000+", icon: "UtensilsCrossed" },
+  { label: "Children Helped", value: "10+", icon: "GraduationCap" },
+  { label: "Couples Helped", value: "10+", icon: "Heart" }
 ];
 
 export const contactInfo = {
