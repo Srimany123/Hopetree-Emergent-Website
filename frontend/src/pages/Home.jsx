@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Users, UtensilsCrossed, GraduationCap, Heart, Star } from 'lucide-react';
+import { ArrowRight, Users, UtensilsCrossed, GraduationCap, Heart } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
-import { trustInfo, programs, stats, testimonials } from '../mock';
+import { trustInfo, programs, stats } from '../mock';
 
 export const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -172,34 +172,6 @@ export const Home = () => {
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="py-20 bg-emerald-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Stories of Hope</h2>
-            <p className="text-xl text-gray-600">Hear from those whose lives have been touched</p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial) =>
-            <Card key={testimonial.id} className="bg-white border-none shadow-lg">
-                <CardContent className="p-8">
-                  <div className="flex mb-4">
-                    {[...Array(testimonial.rating)].map((_, i) =>
-                  <Star key={i} className="h-5 w-5 text-yellow-400" fill="currentColor" />
-                  )}
-                  </div>
-                  <p className="text-gray-700 mb-6 italic">"{testimonial.content}"</p>
-                  <div>
-                    <div className="font-semibold text-gray-900">{testimonial.name}</div>
-                    <div className="text-sm text-gray-500">{testimonial.role}</div>
-                  </div>
-                </CardContent>
-              </Card>
-            )}
           </div>
         </div>
       </section>
