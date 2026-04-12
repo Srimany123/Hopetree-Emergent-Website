@@ -76,7 +76,8 @@ export const Contact = () => {
                   setIsSubmitted(false);
                   setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
                 }}
-                className="bg-emerald-600 hover:bg-emerald-700 text-white"
+                size="lg"
+                className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3"
               >
                 Send Another Message
               </Button>
@@ -229,7 +230,7 @@ export const Contact = () => {
                     <Button
                       type="submit"
                       size="lg"
-                      className="w-full bg-emerald-600 hover:bg-emerald-700 text-white group"
+                      className="w-full bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 group"
                     >
                       Send Message
                       <Send className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />

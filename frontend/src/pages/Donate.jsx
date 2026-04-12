@@ -104,7 +104,8 @@ export const Donate = () => {
                   setCustomAmount('');
                   setFormData({ name: '', email: '', phone: '', message: '' });
                 }}
-                className="bg-emerald-600 hover:bg-emerald-700 text-white"
+                size="lg"
+                className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3"
               >
                 Make Another Donation
               </Button>

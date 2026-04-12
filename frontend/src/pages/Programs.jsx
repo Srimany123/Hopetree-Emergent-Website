@@ -221,7 +221,7 @@ export const Programs = () => {
                     <h3 className="text-xl font-bold text-gray-900 mb-3">{item.title}</h3>
                     <p className="text-gray-600 mb-4">{item.description}</p>
                     <Link to={item.link}>
-                      <Button variant="outline" className="border-emerald-600 text-emerald-600 hover:bg-emerald-50 group">
+                      <Button size="lg" variant="outline" className="border-2 border-emerald-600 text-emerald-600 hover:bg-emerald-50 px-8 py-3 group">
                         {item.action}
                         <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                       </Button>
