@@ -16,7 +16,7 @@ export const Footer = () => {
               <img
                 src="https://customer-assets.emergentagent.com/job_charity-trust-hub/artifacts/y2qkrgjt_Hopetree%20logo.png"
                 alt="Hopetree Charitable Trust"
-                className="h-20 w-auto"
+                className="h-28 w-auto"
               />
             </div>
             <p className="text-sm text-gray-400 mb-4">

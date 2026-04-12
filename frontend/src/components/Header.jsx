@@ -39,7 +39,7 @@ export const Header = () => {
             <img
               src="https://customer-assets.emergentagent.com/job_charity-trust-hub/artifacts/y2qkrgjt_Hopetree%20logo.png"
               alt="Hopetree Charitable Trust"
-              className="h-12 w-auto group-hover:scale-105 transition-transform"
+              className="h-16 w-auto group-hover:scale-105 transition-transform"
             />
           </Link>
 
