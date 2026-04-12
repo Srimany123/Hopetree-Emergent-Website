@@ -41,7 +41,7 @@ export const Home = () => {
               isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`
               }>
 
-              <h1 className="!font-sans !font-bold !text-6xl !text-left !mb-[24px] text-white">
+              <h1 className="!font-sans !font-bold !text-5xl !text-left !mb-[24px] text-white">
                 Spreading Hope<br />
                 <span className="text-emerald-300">Where It's Needed Most</span>
               </h1>
@@ -123,7 +123,7 @@ export const Home = () => {
                   className="w-full h-[400px] object-cover" />
 
               </div>
-              <div className="absolute -bottom-6 -left-6 bg-emerald-600 text-white p-6 rounded-xl shadow-lg">
+              <div className="absolute -bottom-6 -left-6 !mx-[12px] !py-[20px] !px-[20px] rounded-xl shadow-lg text-white bg-emerald-600">
                 <div className="text-3xl font-bold">{trustInfo.beneficiaries}</div>
                 <div className="text-emerald-100">Lives Touched</div>
               </div>
@@ -196,7 +196,7 @@ export const Home = () => {
                 </Button>
               </Link>
               <Link to="/contact">
-                <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-emerald-700 px-8 py-6 text-lg font-semibold">
+                <Button size="lg" variant="outline" className="inline-flex items-center justify-center whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 h-10 hover:bg-emerald-50 text-lg font-semibold gap-2 px-8 py-6 rounded-md !shadow-md bg-white text-emerald-700">
                   Get Involved
                 </Button>
               </Link>
