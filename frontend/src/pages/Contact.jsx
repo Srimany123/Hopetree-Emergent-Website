@@ -148,17 +148,6 @@ export const Contact = () => {
                   <p className="text-gray-600">{contactInfo.address}</p>
                 </CardContent>
               </Card>
-
-              <Card className="bg-emerald-700 text-white border-none">
-                <CardContent className="p-6">
-                  <h3 className="font-semibold mb-3">Office Hours</h3>
-                  <div className="space-y-2 text-emerald-100">
-                    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                    <p>Saturday: 10:00 AM - 4:00 PM</p>
-                    <p>Sunday: Closed</p>
-                  </div>
-                </CardContent>
-              </Card>
             </div>
 
             {/* Contact Form */}
